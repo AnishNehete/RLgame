@@ -1,0 +1,42 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1700998098",
+        "python_version": "3.9.18 (main, Sep 11 2023, 14:09:26) [MSC v.1916 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\Users\\anish\\anaconda3\\envs\\mlagents20\\Scripts\\mlagents-learn C:\\Users\\anish\\AI-Racing-Karts-Finished\\KartAgent.yaml --resume --run-id==customtrainid1",
+        "mlagents_version": "0.30.0",
+        "mlagents_envs_version": "0.30.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.1.1+cu121",
+        "numpy_version": "1.21.2",
+        "end_time_seconds": "1700998161"
+    },
+    "total": 63.179752500000006,
+    "count": 1,
+    "self": 0.015302700000006553,
+    "children": {
+        "run_training.setup": {
+            "total": 0.14766489999999965,
+            "count": 1,
+            "self": 0.14766489999999965
+        },
+        "TrainerController.start_learning": {
+            "total": 63.0167849,
+            "count": 1,
+            "self": 0.00016849999998669318,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 63.016586800000006,
+                    "count": 1,
+                    "self": 63.016586800000006
+                },
+                "TrainerController._save_models": {
+                    "total": 2.960000000484797e-05,
+                    "count": 1,
+                    "self": 2.960000000484797e-05
+                }
+            }
+        }
+    }
+}
